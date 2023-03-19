@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mnsites1.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="LOGO1.PNG" alt="Ma boutique en ligne">
+        </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="mnsite1.html">Accueil</a></li>
+            <li><a href="vetement.html">Vetements</a></li>
+            <li><a href="accessoires.html">accessoires</a></li>
+            <li><a href="puma.html">Chaussures</a></li>
+            
+           
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Nouveautés</h1>
+        <div class="produit">
+          <img src="WhatsApp Image 2023-03-07 at 22.52.06.jpeg" alt="Produit">
+          <img src="WhatsApp Image 2023-03-07 at 22.52.08.jpeg" alt="Produit">
+          <img src="WhatsApp Image 2023-03-07 at 22.52.20.jpeg" alt="Produit">
+          <img src="WhatsApp Image 2023-03-07 at 22.52.09.jpeg" alt="Produit">
+          <h2>Ensembke Nike</h2>
+          <p>New model BEDEN XL XXL XXXL</p>
+          <p class="price">25000FCFA</p>
+          <button onclick="addToCart('Produit 1', 35000)">Ajouter au panier</button>
+        </div>
+        <div class="produit">
+          <img src="photo_2023-03-04_00-11-04.jpg" alt="Produit 2">
+          <h2>New Air force</h2>
+          <p>Taille 36-37-38-39-40-41-42-43-44</p>
+          <p class="price">15000FCFA</p>
+          <button onclick="addToCart('Produit 2', 35000)">Ajouter au panier</button>
+        </div>
+        <div class="produit">
+          <img src="FACEE.PNG" >
+          <h2>RESEAUX SOCIAUX</h2>
+          <p>Rejoignez nous sur FACEBOOK</p>
+          <p class="price">Sur notre page</p>
+          <a href="https://www.facebook.com" target="_blank">
+            <button>Aller sur Facebook</button>
+          </a>
+          
+        </div>
+      </main>
+      <footer>
+        <div class="contact-info">
+          <h2>Coordonnées</h2>
+          <p>Rue KM 10 de Rufisque</p>
+          <p>Dakar Pikine Diamaguene</p>
+          <p>Tél : 33 588 58 33</p>()
+          <p>Email : contact@GueyeShoes.com</p>
+        </div>
+        <div class="social-media">
+          <a href="https://www.facebook.com"><img src="1964400_facebook_logo_media_social_icon.png" alt="Facebook"></a>
+          <a href="https://wa.me/221773172879"><img src="287637_whatsapp_icon.png"></a>
+          <a href="https://www.instagram.com"><img src="7693314_instagram_social media_logo_apps_icon.png" alt="Instagram"></a>
+        </div>
+      </footer>
+      <script>
+         function addToCart(produit) {
+       
+       alert(`Le produit "${produit.name}" a été ajouté au panier.`);
+     }
+      </script>
+    
+</body>
+</html>

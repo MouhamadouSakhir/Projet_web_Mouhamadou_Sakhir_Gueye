@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mnsites1.css">
+    <title>boutique</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="LOGO1.PNG" alt="Ma boutique en ligne">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="mnsites1.html">Accueil</a></li>
+            <li><a href="vetements.html">Vêtements</a></li>
+            <li><a href="puma.html">Chaussures</a></li>
+            <li><a href="accessoires.html">Accessoires</a></li>
+           
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <h1>Nouveautés</h1>
+        <div class="produit">
+          <img src="photo_2023-03-04_00-12-14.jpg"  alt="Produit 1">
+          <img src="photo_2023-03-04_00-12-13.jpg"  alt="Produit 1">
+          <h2>Montre nouveau model</h2>
+          <p>Disponible selon vos preference</p>
+          <p class="price">15000FCFA</p>
+          <button onclick="addToCart({name: 'Produit 1', price: 15000})">Ajouter au panier</button>
+        </div>
+        <div class="produit">
+          <img src="photo_2023-03-04_00-12-31.jpg" alt="Produit 2">
+          <img src="photo_2023-03-04_00-12-27 (2).jpg" alt="Produit 2">
+          <img src="photo_2023-03-04_00-12-32.jpg" alt="Produit 2">
+          <img src="photo_2023-03-04_00-12-33 (2).jpg" alt="Produit 2">
+          
+          <h2>collier</h2>
+          <p>toutes les tailles</p>
+          <p class="price">22000FCFA</p>
+          <button onclick="addToCart({name: 'Produit 2', price: 25000})">Ajouter au panier</button>
+        </div>
+        <div class="produit">
+          <img src="WhatsApp Image 2023-03-07 at 23.32.48.JPEG" alt="Produit 3">
+          <img src="WhatsApp Image 2023-03-07 at 23.32.49.JPEG" alt="Produit 3">
+          <img src="WhatsApp Image 2023-03-07 at 23.32.50.JPEG" alt="Produit 3">
+          <img src="WhatsApp Image 2023-03-07 at 23.32.54.JPEG" alt="Produit 3">
+         
+          <h2>Pochette</h2>
+          <p>Toutes couleur disponible</p>
+          <p class="price">5000FCFA</p>
+          <button onclick="addToCart({name: 'Produit 3', price: 30000})">Ajouter au panier</button>
+        </div>
+      </main>
+      <footer>
+        <div class="contact-info">
+          <h2>Coordonnées</h2>
+          <p>Rue KM 10 de Rufisque</p>
+          <p>Dakar pikine Diamague</p>
+          <p>Tél. : 33 588 58 33</p>
+          <p>Email : contact@GueyeShoes.com</p>
+        </div>
+        <div class="social-media">
+          <a href="https://www.facebook.com"><img src="1964400_facebook_logo_media_social_icon.png" alt="Facebook"></a>
+          <a href="https://wa.me/221773172879"><img src="287637_whatsapp_icon.png" alt="Twitter"></a>
+          <a href="https://www.instagram.com"><img src="7693314_instagram_social media_logo_apps_icon.png" alt="Instagram"></a>
+        </div>
+      </footer>  
+    
+</body>
+<script>
+    function addToCart(produit) {
+     
+     alert(`Le produit "${produit.name}" a été ajouté au panier.`);
+   }
+    </script>
+</html>

@@ -1,0 +1,156 @@
+*{
+  box-sizing: border-box;
+}
+/* Style pour le corps de la page */
+body {
+  font-family: 'poppins' ,cursive ;
+  background:#ffffff; /* couleur principale */
+  color: #ffffff; /* couleur du texte */
+  margin: 0;
+}
+
+/* Style pour l'en-tête */
+header {
+  background-color:  #3ab686;
+  color: #fff;
+  width: 100%;
+  top: 0%;
+  position: fixed;
+  font-size: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+
+/* Style pour mon logo */
+.logo img {
+  width: 25%;
+  height: 25%;
+  border-radius: 40%;
+  border-style: hidden;
+}
+
+/* Style pour le menu */
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+color: #FFF; /* couleur du texte */
+  text-decoration: none; /* supprime la décoration de soulignement par défaut */
+  display: inline-block; /* affiche le lien en ligne avec le texte */
+  padding-bottom: 2px; /* espace entre le texte et le soulignement */
+  background-image: linear-gradient(to right, #000000 0%, #000000 100%); /* ligne de soulignement */
+  background-repeat: no-repeat; /* empêche la répétition de l'image de fond */
+  background-position: bottom; /* positionne l'image de fond en bas */
+  background-size: 0% 2px; /* taille de la ligne de soulignement */
+  transition: background-size 0.3s ease-in-out; /* animation de la transition */
+}
+
+nav a:hover {
+  
+  background-size: 100% 2px;
+}
+
+/* Style pour la section principale */
+main {
+  max-width: 700px;
+  margin: 0 auto;
+ 
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+
+
+.produit {
+  padding-left: 0px;
+  padding-top: 5%;
+  background-color: #34495e;
+  border-radius: 15px;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  text-align: center;
+  border-style:outset;
+  
+}
+
+.produit img {
+ 
+  height: 95%;
+  width: 95%;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border-style: outset ;
+}
+
+.produit h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.produit p {
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3ab686;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: black;
+}
+
+/* Style pour le pied de page */
+footer {
+  background-color: #34495e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social-media img {
+  width: 25px;
+  height: 25px;
+  border-image: none;
+}
